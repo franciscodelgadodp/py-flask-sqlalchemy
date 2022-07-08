@@ -38,17 +38,17 @@ Project using Flask SQLAlchemy with SQLlite
 To run project:
 
 1.- Initialize Environment
-`pipenv install`
-`pipenv shell`
+``pipenv install``
+``pipenv shell``
 
 2.- Run Python Develop
-`python setup.py develop`
+``python setup.py develop``
 
 3.- Run script to initialize db with data from CSV
-`make init`
+``make init``
 
 4.- Start project
-`make dev`
+``make dev``
 
 Note
 ====
