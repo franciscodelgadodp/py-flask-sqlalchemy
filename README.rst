@@ -7,8 +7,7 @@
     .. image:: https://readthedocs.org/projects/py_challenge_flask/badge/?version=latest
         :alt: ReadTheDocs
         :target: https://py_challenge_flask.readthedocs.io/en/stable/
-    .. image:: https://img.shields.io/coveralls/github/<USER>/py_challenge_flask/main.svg
-        :alt: Coveralls
+    .. image:: https://img.shields.io/coveralls/github/<USER>/py_challenge_flask/main.svg        :alt: Coveralls
         :target: https://coveralls.io/r/<USER>/py_challenge_flask
     .. image:: https://img.shields.io/pypi/v/py_challenge_flask.svg
         :alt: PyPI-Server
@@ -30,17 +29,26 @@
 |
 
 ==================
-py_challenge_flask
+py-flask-sqlalchemy
 ==================
 
 
-    Add a short description here!
+Project using Flask SQLAlchemy with SQLlite
 
+To run project:
 
-A longer description of your project goes here...
+1.- Initialize Environment
+`pipenv install`
+`pipenv shell`
 
+2.- Run Python Develop
+`python setup.py develop`
 
-.. _pyscaffold-notes:
+3.- Run script to initialize db with data from CSV
+`make init`
+
+4.- Start project
+`make dev`
 
 Note
 ====
